@@ -34,7 +34,7 @@ function Chat({ showChat, changeShowMessages, changeShowChat }) {
             className="m-0 w-full h-full"
             onClick={(e) => updateChatAndMessagesDivs(e)}
           >
-            <span class="w-full h-full material-symbols-outlined  text-4xl mt-1">
+            <span class="w-10 h-10 material-symbols-outlined  text-4xl mt-1">
               arrow_back
             </span>
           </button>
@@ -62,7 +62,7 @@ function Chat({ showChat, changeShowMessages, changeShowChat }) {
         </div>
         <div className="absolute top-0 right-0 h-full w-16 inline-block p-0 sm:!w-14 rsm:!w-12">
           <button className="m-0 w-full h-full relative">
-            <span class="w-full h-full material-symbols-outlined  text-4xl mt-1">
+            <span class="w-10 h-10 material-symbols-outlined  text-4xl mt-1">
               menu
             </span>
           </button>
@@ -107,7 +107,7 @@ function Chat({ showChat, changeShowMessages, changeShowChat }) {
                 </div>
                 <div className="w-12 h-full border-2 border-black rounded-full float-right inline-block">
                   <button className="m-0 w-full h-full" type="submit">
-                    <span class="w-full h-full material-symbols-outlined text-4xl ml-0.5 mt-1">
+                    <span class="w-10 h-10 material-symbols-outlined text-4xl ml-0.5 mt-1">
                       send
                     </span>
                   </button>

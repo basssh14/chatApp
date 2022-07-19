@@ -30,7 +30,7 @@ function ContactMessages({
           style={{ backgroundImage: `url("/images/profile.png")` }}
         ></div>
       </div>
-      <div className=" w-80 h-full float-right  mr-12  lg3:!mr-0 lg:!w-72 md3:!w-64 md2:!w-60 md:!w-80 md:!float-none md:!inline-block md:!ml-2 sm:!w-80 rsm:!w-60 usm:!w-56">
+      <div className=" w-80 h-full inline-block  mr-12  lg3:!mr-0 lg:!w-72 md3:!w-64 md2:!w-60 md:!w-80 md:!float-none md:!inline-block md:!ml-2 sm:!w-80 rsm:!w-60 usm:!w-56">
         <div className="relative w-full h-1/2 ">
           <h2 className="w-full absolute centerVertical text-lg font-bold text-slate-900 truncate lg:!text-base md3:!text-sm md:!text-lg rsm:!text-xs usm:!text-rsmall">
             {name}
